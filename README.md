@@ -21,14 +21,23 @@
 
 - Challenge 1: No regional (city level) data was available, which could skew overall theater outcomes based on launch date. To perform a more comprehensive analysis, it would be usefully to understand if cities with warmer year-round climates had a similar uptick in successful outcomes during the warmer months i.e. was the uptick mainly in cities where there were cold winters but stayed constant in warmer climates. Louise can then make a more informed decision based on her regional location.
 
-- Challenge 2: Its somewhat obvious that smaller goals would have higher success percentages while higher goals would have higher fail rates. Considering there is not a lot of overall data on plays past $25K 42 of the overall 1,047 plays, Louise could consider looking analyzing the overall data and/or analyzing the parent category theater which would lead to a more robust data set.
+- Challenge 2: Its somewhat obvious that smaller goals would have higher success percentages while higher goals would have higher fail rates. Considering there is not a lot of overall data on plays past $25K, 42 of the overall 1,047 plays, Louise could consider analyzing the overall data and/or analyzing the parent category theater which would lead to a more robust data set.
 
 ## Results
 
-- What are two conclusions yo
+- Conclusions: Outcomes based on launch date:
+  - 1: Warmer months were heavliy correlated with overall successful outcomes for theater campains. 
+  - 2: Colder months were heavily correlated with less successful outcomes and overall a higher precentage of failed outcomes.  
 
-- What can you conclude about the Outcomes based on Goals?
+- Conclusions: Outcomes based on Goals:
+  - 1: Goals of less than $5K had the highest likelyhood of sucess. 
+  - 2: Goals of $45K or more had the lowest likelyhood of sucess. 
 
-- What are some limitations of this dataset?
+- Limitations:
+  - This dataset only focused on Kickstarter campaigns, i.e. funding for projects. Just because a project was successfully funded on Kickstarter per this data, doesn’t mean it will be a commercial success and will lead to a profit. Louise should consider not only this data to help better determine how to successfully fund her play but should also look for data to help better determine if her play will be a commercial success once funded.  
+  - This data, although categorized and regionalized, is not a direct apples to apples comparison to the exact play Louise is looking to fund. As such, there is a relative margin of error present in the data set and small regional nuances (such as city) or different genres of plays could have a big impact on funding, that information is not available in the data set.  
+  - This data does not account for broader macro-economic circumstances especially when just looking at months. For example, the data set starts in 2009 and ends in 2017. Were people less likely to fund a campaign in 2009 due to the broader economic recession and more likely to fund a campaign in 2017 due to an improved economy? If so, how does that skew the data? Was Kickstarter less popular in 2009 vs. 2017 or vice-versa? Did Kickstarter launch an add campaign one year during May that skewed the May data set? These are all limitations in the overall data and relative unknowns based on this data set.
 
-- What are some other possible tables and/or graphs that we could create?
+- Other Possible Tables and Graphs: 
+  - 1: A table which broke the data down by month and year would be beneficial to help better understand if monthly increases in successful campaigns were evident through all years present in the data set or if it’s driven by an anomaly during one year.  
+  - 2: Line charts for outcomes based on goals for the entire data set & and the entire data set by parent category. This would give Louise a better idea of how higher funding goals faired more broadly to help determine her funding goal level, as the plays data did not have many plays with high funding amounts.
